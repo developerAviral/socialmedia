@@ -10,8 +10,6 @@ import java.util.Map;
 @RequestMapping("/rest/socialMedia")
 public class SsmResource {
 
-    @Autowired
-    RestTemplate restTemplate;
 
     /**
      * create new posts
